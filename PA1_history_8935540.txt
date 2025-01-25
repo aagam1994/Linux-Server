@@ -1,0 +1,175 @@
+    1  ping www.google.com
+    2  mkdir files1
+    3  mkdir files2
+    4  ls
+    5  cd /etc
+    6  mkdir /home/aagam/files1/files1a
+    7  mkdir -p /home/aagam/files3/files3a
+    8  ls
+    9  cd /home
+   10  ls
+   11  /aagam
+   12  cd
+   13  /etc
+   14  cd /etc
+   15  ls
+   16  cd
+   17  ls
+   18  cd files1
+   19  ls
+   20  cd
+   21  cd files2
+   22  ls
+   23  cd
+   24  cd files3
+   25  ls
+   26  cd home
+   27  cd
+   28  cd /home
+   29  touch text1 text2 text3
+   30  sudo touch text1 text2 text3
+   31  ls
+   32  clear
+   33  cd
+   34  touch text1 text2 text3
+   35  ls
+   36  clear
+   37  touch text1 text2 text3
+   38  ls
+   39  cp text1 files1
+   40  cp text1 text2 files2
+   41  cp text3 files1/text3a
+   42  cp -r files2 files1
+   43  cd files1
+   44  ls
+   45  cd
+   46  cd files1/files1a
+   47  cd
+   48  cd /home/aagam/files2
+   49  clear
+   50  cd
+   51  cd ../files3/files3a
+   52  cd files2
+   53  ls
+   54  cd ../files3/files3a
+   55  mkdir ../../files1/filesb && cd ../../files3/files3a
+   56  clear
+   57  cd
+   58  cd files3
+   59  cd files3a
+   60  clear
+   61  cd ..
+   62  mv text1 ../files3
+   63  mv text ../files3
+   64  ls
+   65  cd 
+   66  ls
+   67  mv text ../files3
+   68  cd files3
+   69  cd files3a
+   70  clear
+   71  mv files2 ../files3/files3a
+   72  cd
+   73  mv files2 ../files3/files3a
+   74  ls
+   75  mv files2 ../../files3/files3a
+   76  sudo mv files2 ../../files3/files3a
+   77  clear
+   78  cd ../
+   79  cd
+   80  cd files3
+   81  cd files3a
+   82  clear
+   83  cd ../
+   84  cd
+   85  clear
+   86  cd files3
+   87  cd files3a
+   88  clear
+   89  cd ..
+   90  cd
+   91  clear 
+   92  rm -r files2/*
+   93  cd files2
+   94  ls
+   95  cd
+   96  rmdir files2
+   97  ls
+   98  clear
+   99  mkdir files4
+  100  ls
+  101  clear
+  102  mkdir files4
+  103  ls
+  104  rmdir files4
+  105  clear
+  106  mkdir files4
+  107  clear
+  108  mv text1 files4/text1a
+  109  clear
+  110  mv text2 text3 files4
+  111  ls
+  112  rm -r files4
+  113  ls
+  114  clear
+  115  vim VimText.txt
+  116  sudo apt install vim
+  117  vim VimText.txt
+  118  nano VimText.txt
+  119  grep -c "file" VimText.txt //Total Count
+  120  grep -c "file" VimText.txt 
+  121  clear
+  122  grep -c "file" VimText.txt 
+  123  grep -c "text" VimText.txt 
+  124  grep -c "directory" VimText.txt 
+  125  grep -c "document" VimText.txt 
+  126  tar -cvf my_home_directory.tar /home/aagam
+  127  tar -zcvf my_home_directory.tar.gz /home/aagam
+  128  ls
+  129  rm -rf ! (my_home_directory.tar|my_home_directory.tar.gz)
+  130  rm -rf !(my_home_directory.tar|my_home_directory.tar.gz)
+  131  ls
+  132  tar -xvf my_home_directory.tar
+  133  ls
+  134  clear
+  135  rm -rf !(my_home_directory.tar|my_home_directory.tar.gz)
+  136  ls
+  137  clear
+  138  tar -zxvf my_home_directory.tar.gz
+  139  ls
+  140  cd home
+  141  ls
+  142  cd aagam
+  143  ls
+  144  clear
+  145  cd ..
+  146  cd
+  147  clear
+  148  lsmod
+  149  mkdir files
+  150  ls
+  151  cd files
+  152  clear
+  153  sudo touch {1..6} 1{a..f} 2{a..f} 3{a..f} {a..f} {A..F} a{1..6} {11,22,33,44,55,66} {abc,def,ghi,jkl} file{1..6} File{1..6} file{1a,2b,3c,4d,5e,6f}
+  154  ls
+  155  ls ?
+  156  ls ??
+  157  ls 1?
+  158  ls ?1
+  159  ls a?
+  160  ls f*
+  161  ls *digit1
+  162  sudo ls *digit1
+  163  ls *1
+  164  ls F*
+  165  ls *a
+  166  ls [a-z]
+  167  ls [0-9]
+  168  ls [A-Z]
+  169  ls [a-z,A-Z]
+  170  ls [F,f]*
+  171  ls *[0-9]*
+  172  ls [1,3,d,j]
+  173  ls [1,3,d,j]*
+  174  clear
+  175  history > PA1_history_8935540.txt
