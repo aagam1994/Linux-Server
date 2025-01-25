@@ -1,0 +1,91 @@
+# NTWK8141-Sec3 Practical Assignment #1 - Demo
+# Demo Instructions File
+# Date: June 12, 2024
+# Instructor: Jason Paul
+
+# All tasks will be done within the extracted file directory.
+# Complete the tasks in order, as some steps may depend on previous steps being completed.
+
+# When you're finished, you will create a new tar file with the modifications.
+# You will upload this tar file along with your demo recording.
+# Do not stop your recording until your tar file is uploaded.
+
+# For your tar file, be sure to use the following file format exactly (case sensitive):
+#   <CondorID>_<StudentNumber>_NTWK8141-3_PA1-Demo.tar
+#   Example: jmpaul_1234567_NTWK8141-3_PA1-Demo.tar
+
+###################################
+Student Name:	Aagam Sanjay Shah
+Student Condor ID: Ashah5540
+Student Number: 8935540
+
+Task List:
+-----------------
+
+1. Fill out your name, Condor ID, and student number in the fields above.
+
+2. 
+a. Change to the dir1 directory.  
+b. Provide a count of the total number of non-hidden files in this directory in the space below.
+
+File Count: 4056
+
+3.
+a. Inside dir1, one of the files has the phrase "Linux is amazing" in it. Find the name of the file.
+b. Write the filename that contains the phrase, and the command you used to find it below.
+
+Filename:
+Command:
+
+4.
+a. Inside dir1, With one command, move all non-hidden files that have the number "2" in it into the dir2 directory. 
+b. Write the exact command used below:
+
+Command: mv *2 /dir2
+
+5. 
+a. Change to the main directory of the extracted files (where this file is located).
+b. With one command, create a directory structure inside of dir3 as follows:
+	systeminfo/neofetch
+c. Write the exact command used below:
+
+Command:
+
+6. 
+a. Install neofetch using the package manager used in distributions like Debian, Ubuntu, and Linux Mint.
+b. Install vim using the same package manager.
+c. With one command, run neofetch and direct the standard output to a file neofetch.txt in the dir3/systeminfo/neofetch directory.
+d. Write the exact command used below:
+
+Command:
+sudo apt install neofetch
+sudo apt install vim
+neofetch dir3/systeminfo/neofetch/neofetch.txt
+
+7. 
+a. Find the exact kernel version your Linux Mint machine is running.
+b. Using vim, create a file in dir3/systeminfo/kernel.txt
+c. In the file, write the exact kernel version found above.  Be sure to check case and numbering so it matches.
+d. Save the file and quit vim.
+
+8. 
+a. Run the "history" command, and direct the output of the command to a file history.txt in the dir3/systeminfo directory.
+b. Save your instructions file PA1-S3-Questions with all of your changes. If unsure, save and close, then re-open the file to proceed.
+
+9. 
+a. Create a tar file with all files and directories for this demo. Be sure to use the exact file naming convention described:
+
+<CondorID>_<StudentNumber>_NTWK8141-3_PA1-Demo.tar
+Example: jmpaul_1234567_NTWK8141-3_PA1-Demo.tar
+
+b. Upload your tar file to eConestoga in the "PA1 Skills Demo" assignment.
+
+10.  
+a. If you are finished early, put your hand up, and confirm with the professor that you are finished and all files are uploaded.
+b. Stop your recording, and upload/link the Zoom Cloud Recording to eConestoga to the "PA1 Demo Video Upload" assignment.
+c. You will be allowed to leave the classroom and take a break until 8:30PM, when we will start the lecture.
+
+##########################
+# Breathe.               #
+# GOOD JOB! :)           #
+##########################
