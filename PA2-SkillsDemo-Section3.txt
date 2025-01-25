@@ -1,0 +1,61 @@
+# PA2 Skills Demo - Section 3 - Wednesday August 7, 2024
+# Instructor: Jason Paul
+
+1.  
+- On your Linux Mint GUI VM, log in as root.
+- Create a group called "skillsdemo" with a GID of 8888.
+- Create a new user called "skillsdemo" who is a member of this group. Ensure this user has a proper home directory at /home/skillsdemo created automatically.
+- Add the newly created "skillsdemo" user to the "sudo" group.
+
+2.  
+- As root, in your /tmp directory, create a file called "userlist.txt".
+- Run a command to assign the user and group ownership of this file to your "skillsdemo" user and group.
+- List the files and show this file has the correct ownership settings.
+
+3. 
+- As root, using octal values, change the file permissions on this file to:
+  - Allow the owning user to have full access
+  - The owning group to have read/write access
+  - Others to have no access.
+- List the files and show this file has the correct permissions.
+  
+4. 
+- Ensure that you have a "skillsdemo" user on your Rocky Linux CLI server that you can log in as. You may need to create this.
+- Ensure that SSH client is installed on your Linux Mint GUI machine, and the SSH Server is installed and running on your Rocky Linux CLI machine.
+- Adjust any firewall rules as necessary to allow connection from the Linux Mint GUI machine to the Rocky Linux CLI server via SSH.
+- Ensure that you are able to SSH from your Linux Mint GUI machine to your Rocky Linux CLI server with the "skillsdemo" user.
+
+5. 
+- On your Linux Mint GUI machine, in a terminal, switch to your "skillsdemo" user.
+- As this user, run a command to generate an SSH keypair (public/private):
+  - Using an RSA key type
+  - Storing the keys in the .ssh folder in the user's home directory. Use a relative filepath from the user's home directory.
+  - Naming the keys "skillsdemokey".
+
+6. 
+- As the "skillsdemo" user, run a command to send your generated SSH public key to the Rocky Linux CLI server.
+- Demonstrate logging into the Rocky Linux CLI server with that SSH key and no password.
+
+7. 
+- In your Linux Mint GUI, open a Firefox web browser window. If it is not installed, install Firefox.
+- In your terminal window, execute a command that will unconditionally terminate the Firefox browser process by name.
+
+8. 
+- On the Rocky Linux CLI server, install the nginx web server.
+- Configure it to run on port 8888.
+- Test this by going to http://serverIPaddress:8888. Provide screenshots.
+
+
+9. 
+- On the Rocky Linux CLI server, install PostgreSQL.
+- Log in as the database super user.
+- Create a role called "sysadmin" with CREATEDB access.
+- List all roles to confirm the "sysadmin" user has the proper attribute.  Provide a screenshot.
+- Log in as the "sysadmin" user and create a database called "ntwk8141". Provide a screenshot.
+
+10. 
+- Create a Bash script that takes in one parameter when executed, and does the following:
+- If the parameter is "skillsdemo", loop 3 times and output the text "Project" each time.
+- If the parameter is "exam", loop 4 times and output the text "Study" each time.
+- If the parameter is anything else, output "Error" once, and end the script.
+- Demonstrate the script working for all three of these scenarios. Provide screenshots.
